@@ -1,4 +1,4 @@
-# Webpack + Angular from LoftBlog
+# Angular + Webpack from LoftBlog
 ![Webpack plus AngularJS](cover.jpg)
 
 ## Description
