@@ -5,7 +5,7 @@ export default ngModule => {
     return {
       restrict: 'E',
       scope: {},
-      templateUrl: 'directives/hello-world/hello-world.html',
+      template: require('./hello-world.html'),
       controllerAs: 'vm',
       controller: function () {
         const vm = this;
