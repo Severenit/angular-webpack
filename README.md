@@ -3,6 +3,7 @@
 
 ## Description
 This is an example of using webpack with an Angular project.
+
 A full description and example of work you can see in the video lessons.
 
 [Angular + Webpack](http://youtube.com/)
