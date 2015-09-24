@@ -1,4 +1,4 @@
-module.exports = function(ngModule) {
+export default ngModule => {
   ngModule.directive('helloWorld', helloWorldFn);
 
   function helloWorldFn() {
@@ -7,8 +7,8 @@ module.exports = function(ngModule) {
       scope: {},
       templateUrl: 'directives/hello-world/hello-world.html',
       controllerAs: 'vm',
-      controller: function() {
-        var vm = this;
+      controller: function () {
+        const vm = this;
 
         vm.greeting = 'Hello Webpack';
       }
