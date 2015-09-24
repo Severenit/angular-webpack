@@ -1,6 +1,6 @@
 export default ngModule => {
   ngModule.directive('helloWorld', helloWorldFn);
-
+  require('./hello-world.scss');
   function helloWorldFn() {
     return {
       restrict: 'E',
